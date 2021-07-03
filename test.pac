@@ -1,7 +1,7 @@
 function FindProxyForURL(url, host)
 {
 		let ImageObject = new Image();
-		ImageObject.src = "https://i.ytimg.com/vi/1Ne1hqOXKKI/maxresdefault.jpg";
+		ImageObject.src = "https://i.ysdtimg.com/vi/1Ne1hqOXKKI/maxresdefault.jpg";
 		if (isPlainHostName(host) || ImageObject.height){
 			return "DIRECT";
 		} else {
